@@ -8,7 +8,7 @@ body {
 }
 .header {
     background-color: #1F2937;
-    padding: 16px 120px;
+    padding: 16px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,32 +28,152 @@ a {
     color: #e5e7eb;
     text-decoration: none;
 }
+p {
+    color: #e5e7eb;
+}
 .container-one {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 16px 120px;
+    padding: 80px 200px;
     display: flex;
-    height: 300px;
     color: #f9faf8;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 .leftside {
     display: flex;
     flex-direction: column;
-    flex:1
+    flex:1 1 400px;
+    color: #f9faf8;
+    font-size: 18px;
+}
+button {
+    background-color: #3882f6;
+    width: 150px;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    transition: background-color ease-in-out 0.5s;
+
+}
+button:hover {
+    background-color: #fbfbfb;
+    cursor: pointer;
+    color: #1F2937;
 }
 h1 {
-    font-size: 40px;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
 }
 .rightside {
     flex: 1;
     display: flex;
     justify-content: flex-end;
     max-width: 100%; /* genişliği container'dan büyük olmasın */
-  height: 100%;    /* oranı sabit tut */
+  max-height: 300px;    /* oranı sabit tut */
   border-radius: 10px; /* opsiyonel: köşeleri yuvarlat */
   object-fit: cover;
 }
-.rightside img {
-
+.container-two {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 200px;
+    align-items: center;
 }
+.infoheader {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.dumbirds {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.birdbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #1F2937;
+   }
+:hover.birdbox {
+    transition: ease-in-out 1s;
+    scale: 1.2;
+}
+.birdimage {
+    aspect-ratio: 1;
+    width: 200px;
+    border-radius: 20px;
+    border: 4px solid #3882f6;
+    object-fit: cover;
+}
+.container-three {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 300px;;
+    background-color: #e5e7eb;
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+}
+.author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 600;
+}
+.container-four {
+    display: flex;
+    padding: 80px 200px;;
+}
+.calltoaction {
+    display: flex;
+    background-color: #305db8;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 120px;
+    width: 100%;
+    border-radius: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.cleftside {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1 1 500px;
+}
+.cleftside p {
+    color: #e5e7eb;  
+    margin: 0;
+}
+.cleftside h2 {
+    color: #f9faf8; 
+    margin: 0;
+}
+.calltoaction button {
+    height: 50px;
+}
+.footer {
+    color: #e5e7eb;
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* EN SON GENEL BİR DİV ATAYIP PADDING VER */
