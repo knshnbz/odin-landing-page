@@ -1,0 +1,59 @@
+* {
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+.header {
+    background-color: #1F2937;
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-one {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+ul {
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.container-one {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 16px 120px;
+    display: flex;
+    height: 300px;
+    color: #f9faf8;
+}
+.leftside {
+    display: flex;
+    flex-direction: column;
+    flex:1
+}
+h1 {
+    font-size: 40px;
+}
+.rightside {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%; /* genişliği container'dan büyük olmasın */
+  height: 100%;    /* oranı sabit tut */
+  border-radius: 10px; /* opsiyonel: köşeleri yuvarlat */
+  object-fit: cover;
+}
+.rightside img {
+
+}
